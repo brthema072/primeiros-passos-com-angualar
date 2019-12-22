@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MyFirstComponent} from './myfirst.component';
-import { MySecondComponent } from './my-second/my-second.component'
+import { MySecondComponent } from './my-second/my-second.component';
+import { MyThirdComponent } from './my-second/my-third/my-third.component'
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { MySecondComponent } from './my-second/my-second.component'
     AppComponent,
     MyFirstComponent,
     MySecondComponent,
+    MyThirdComponent,
   ],
   imports: [
     BrowserModule,
